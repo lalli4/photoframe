@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    color: blue;
+}
+img{
+    border: 2px dotted gold;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: border-color 0.3sec ease ;
+    
+}
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2014/01/23/21/33/blue-250770_640.jpg);
+}
+img:hover{
+    border-color: darkgreen;
+}
+
